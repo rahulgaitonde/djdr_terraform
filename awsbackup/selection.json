@@ -1,0 +1,6 @@
+{
+    "SelectionName": "Myselection",
+    "IamRoleArn": "arn:aws:iam::154204971707:role/service-role/AWSBackupDefaultServiceRole",
+    "Resources": ["arn:aws:ec2:us-east-1:154204971707:instance/i-041a70c2de5d9c587"]
+    
+}

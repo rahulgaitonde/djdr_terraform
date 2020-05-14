@@ -1,0 +1,14 @@
+{
+"CapacityReservationSpecification": "{\"CapacityReservationPreference\":\"open\"}",
+"CreditSpecification": "{\"CpuCredits\":\"standard\"}",
+"DisableApiTermination": "false",
+"EbsOptimized": "false",
+"HibernationOptions": "{\"Configured\":false}",
+"InstanceInitiatedShutdownBehavior": "stop",
+"InstanceType": "t2.micro",
+"KeyName": "AWSDevOps",
+"Monitoring": "{\"State\":\"disabled\"}",
+"SecurityGroupIds": "[\"sg-52b43f1b\"]",
+"SubnetId": "subnet-1c566365",
+"VpcId": "vpc-92d30bea"
+}

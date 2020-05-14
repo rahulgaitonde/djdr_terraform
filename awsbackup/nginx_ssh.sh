@@ -1,0 +1,5 @@
+#!/bin/bash
+apt-get update
+apt-get -y install nginx
+service nginx start
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDGi/GyGyV/kLBhFVV7eDArcSpNTQVGEJ44ea0iXqU4WvL9mQo82catopngaMLG/xwJG8mPYdvAdvtUo5yuP8UgTtj4twXSW4LEyUy3FaXJki/1sZ6PXUdCk+Cb96LAYztbKN4hKGLoDh+/s3NWvZ1T+zhCHjJyBO5KNpa5cBER73OMuoB1oXgP08dIPrUsIBSVHktsxO53gdA1t2ePvveRhVyJw2TE3wklq3op02uyZ2sF9yc9mG7FlI7iG35GYiCDJfkdsZ9PHwOUxTv4GUmda/Bj5Dy9/F2GRzDmw7Qpqu2LRXhGSc1jbCsL0hSrA5dPQx7kl2x91Yb+1aT3EsK5 rahulgaitonde@Rahuls-MBP-2 >> .ssh/authorized_keys

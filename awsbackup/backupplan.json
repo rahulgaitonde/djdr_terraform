@@ -1,0 +1,21 @@
+{
+    "BackupPlanName": "testplan",
+    "Rules": [{
+        "RuleName": "HalfDayBackups",
+        "TargetBackupVaultName": "primary",
+        "ScheduleExpression": "cron(0 5/12 ? * * *)",
+        "StartWindowMinutes": 480,
+        "CompletionWindowMinutes": 10080,
+        "Lifecycle": {
+            "DeleteAfterDays": 30
+        },
+        "CopyActions": [{
+            "DestinationBackupVaultArn": "arn:aws:backup:us-west-2:154204971707:backup-vault:secondary",
+            "Lifecycle": {
+                "DeleteAfterDays": 30
+            }
+        }]
+
+
+    }]
+}

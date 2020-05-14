@@ -1,0 +1,7 @@
+{
+        "availabilityZone": "us-west-2b",
+        "aws:backup:request-id": "33a27e52-77c3-434d-ba54-583b2c7ba2fb",
+        "encrypted": "false",
+        "volumeId": "vol-04971e3d18c05def3"
+
+}
